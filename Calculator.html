@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="firstNumber" placeholder="첫 번째 숫자">
+        <br>
+        <input type="number" id="secondNumber" placeholder="두 번째 숫자">
+        <br>
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+        <button onclick="calculate()">계산</button>
+        <br>
+        <p>Result:</p><input type="text" id="display" readonly>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
