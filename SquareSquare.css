@@ -1,0 +1,36 @@
+html {
+    background-color: tomato;
+    margin-top:150px;
+    
+  }
+  
+  body {
+     background-color: wheat;
+     border: 3px solid black;
+     width: 500px;
+     height: 500px;
+     margin-inline: 30px;
+     margin:0 auto;
+  }
+  
+  .square {
+    border: 3px solid white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    
+    margin:0 auto;
+  }
+
+  
+  .square-mid {
+    border: 3px dashed white;
+    background-color: greenyellow;
+    width: 350px;
+    height: 50px;
+    margin:0 auto;
+  }
+
+  .gongback {
+    margin:37px;
+  }
